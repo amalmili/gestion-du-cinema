@@ -1,0 +1,395 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+  background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/15003.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.308);
+  background-blend-mode: multiply;
+  overflow: hidden;
+ 
+}
+.logo{
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 28px;
+  font-size: 35px;
+ 
+  color:#ccc
+  
+  
+}
+.logo p span{
+  color:#F5C61C;
+  font-size: 40px;
+  font-weight: 300;
+  
+}
+  
+header{
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(28, 28, 28, 0.5);
+  background-blend-mode: multiply;
+  padding-top: 15px;
+  
+}
+
+.link {
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      margin-top: 10px;
+      padding:5px;
+      
+}
+nav{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding-left: 70%;
+}
+  
+nav ul {
+      list-style-type: none; 
+      
+      display: flex; 
+}
+  
+nav li {
+     margin-right:60px ; 
+}
+  
+nav a {
+      color: white; 
+      text-decoration: none; 
+      
+}
+  
+select {
+      background-color: rgba(28, 28, 28, 0.5);
+      color: white; 
+      margin-right: 600px;
+      border: none;
+      
+}
+
+
+
+.container {
+  
+
+display:flex;
+align-items: center;
+justify-content: center;
+WIDTH: 500px;
+height: 400px;
+margin:200px 370px;
+
+
+
+
+
+}
+form{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:40px 0px;
+}
+
+input{
+  width: 500px;
+  padding: 17px;
+  margin-top: 20px;
+  
+  
+  
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  
+  
+  
+}
+
+
+button {
+  background-color:#F5C61C;
+  
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+ 
+  border: none;
+  cursor: pointer;
+  width: 160px;
+  margin: 20px 10px;
+ 
+  border-radius: 10px;
+  
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+#cpte {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 100px; 
+  margin-right: 600px; 
+  color: rgb(249, 242, 242);
+  font-family: Abel;
+  
+}
+
+nav a:hover,
+nav a:active {
+    text-decoration: underline; 
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 1027px) {
+  .container{
+    margin:150px 240px;
+
+  }
+  #cpte {
+    margin-right: 420px;
+    margin-bottom: 50px;
+  }
+
+  
+}
+@media screen and (max-width: 975px){
+  .container{
+    margin:150px 230px;
+
+  }
+  #cpte {
+    margin-right: 320px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 889px){
+  .container{
+    margin:150px 165px;
+
+  }
+  #cpte {
+    margin-right: 355px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 847px){
+  .container{
+    margin:150px 165px;
+
+  }
+  #cpte {
+    margin-right: 310px;
+    margin-bottom: 50px;
+  }
+  nav li {
+    margin-right:40px ; 
+}
+}
+@media screen and (max-width: 777px){
+  .container{
+    margin:150px 150px;
+
+  }
+  #cpte {
+    margin-right: 250px;
+    margin-bottom: 50px;
+  }
+  nav li {
+    margin-right:40px ; 
+}
+}
+@media screen and (max-width: 753px){
+  .container{
+    margin:150px 130px;
+
+  }
+  #cpte {
+    margin-right: 250px;
+    margin-bottom: 50px;
+  }
+  nav li {
+    margin-right:40px ; 
+}
+}
+@media screen and (max-width: 715px){
+  .container{
+    margin:150px 100px;
+
+  }
+  #cpte {
+    margin-right: 250px;
+    margin-bottom: 50px;
+  }
+  nav li {
+    margin-right:30px ; 
+}
+}
+@media screen and (max-width: 675px){
+  .container{
+    margin:150px 85px;
+
+  }
+  #cpte {
+    margin-right: 230px;
+    margin-bottom: 50px;
+  }
+  nav li {
+    margin-right:30px ; 
+}
+}
+@media screen and (max-width: 653px){
+  .container{
+    margin:150px 70px;
+
+  }
+  #cpte {
+    margin-right: 230px;
+    margin-bottom: 50px;
+  }
+  nav li {
+    margin-right:20px ; 
+}
+}
+@media screen and (max-width: 643px){
+  .container{
+    margin:150px 70px;
+
+  }
+  #cpte {
+    margin-right: 200px;
+    margin-bottom: 50px;
+  }
+  nav li {
+    margin-right:20px ; 
+}
+}
+@media screen and (max-width: 609px){
+  .container{
+    margin:150px 50px;
+
+  }
+  #cpte {
+    margin-right: 200px;
+    margin-bottom: 50px;
+  }
+  nav li {
+    margin-right:20px ; 
+}
+}
+@media screen and (max-width: 577px){
+  .container{
+    margin:150px 40px;
+
+  }
+  #cpte {
+    margin-right: 190px;
+    margin-bottom: 50px;
+  }
+  nav li {
+    margin-right:10px ; 
+}
+}
+@media screen and (max-width: 565px){
+  .container{
+    margin:150px 30px;
+
+  }
+  #cpte {
+    margin-right: 150px;
+    margin-bottom: 50px;
+  }
+  nav li {
+    margin-right:10px ; 
+    
+}
+input{
+  width: 400px;
+}
+}
+@media screen and (max-width: 500px){
+  .container{
+    margin:150px 10px;
+
+  }
+  #cpte {
+    margin-right: 130px;
+    margin-bottom: 50px;
+  }
+  nav li {
+    margin-right:15px ; 
+    
+}
+select{
+  margin-left: -2px;
+}
+input{
+  width: 400px;
+}
+}
+@media screen and (max-width: 445px){
+  .container{
+    margin:150px 10px;
+
+  }
+  #cpte {
+    margin-right: 80px;
+    margin-bottom: 50px;
+  }
+  nav li {
+    margin-right:10px ; 
+    
+}
+
+input{
+  width: 400px;
+}
+}
+@media screen and (max-width: 396px){
+  .container{
+    margin:150px 10px;
+
+  }
+  #cpte {
+    margin-right: 40px;
+    margin-bottom: 50px;
+  }
+  nav li {
+    margin-right:8px ; 
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+select{
+  font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+  width: 400px;
+}
+}
+  
+  
