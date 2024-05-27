@@ -1,0 +1,166 @@
+.form form{
+    display:flex;
+    flex-direction:column;
+    width: 300px;
+    justify-content: center;
+    grid-gap: 8px;
+    border-radius: 20PX;
+    padding:25px;
+    
+}
+.content{
+    display: flex;
+    grid-gap: 50px;
+    padding: 25px;
+    justify-content: center;
+
+}
+.charts{
+    width:600px;
+    border-radius: 20PX;
+    display: flex;
+    justify-content: center;
+    background: var(--light);
+}
+.charts.charts-card2{
+    width:100%;
+}
+.charts .charts-card2{
+    width:100%;
+    
+    padding: 25px;
+    border: 1px solid #d2d2d3;
+    background-color: var(--light);
+    box-sizing: border-box;
+    border-radius: 20px;
+    height:100%;
+    
+}
+
+
+.form{
+    background: var(--light);
+    width:350px;
+    border-radius: 20PX;
+    display: flex;
+    justify-content: center;
+}
+.form form label{
+    color:var(--orange);
+    cursor: pointer;
+    
+}
+.form form label  :focus{
+    text-decoration: underline
+
+}
+.form form input{
+   height: 15px;
+   padding:15px;
+   background: var(--light);
+   color:var(--dark);
+   border:2px solid #d2d2d3 ;
+   border-radius: 15px;
+}
+
+
+
+
+
+
+.form form textarea{
+    background: var(--light);
+    padding: 10px;
+    resize: none;
+    color:var(--dark);
+    border:2px solid #d2d2d3 ;
+    border-radius: 15px;
+
+
+
+}
+.form form .btn{
+    display: flex;
+    grid-gap: 8px;
+    flex-direction: center;
+
+
+    
+}
+.form form button{
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    background: var(--light);
+    color: #FD7238;
+    cursor: pointer;
+    border:2px solid #d2d2d3;
+    margin-right: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.form form button:hover{
+
+    border:2px solid#FD7238;
+               
+}
+    
+    
+
+
+
+    
+
+
+.form form select{
+    border:2px solid #d2d2d3;
+    color:var(--dark);
+    background: var(--light);
+    padding: 8px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.charts-card2{
+    width:300px
+}
+@media screen and (max-width: 768px) {
+	#sidebar {
+		width: 200px;
+	}
+
+	#content {
+		width: calc(100% - 60px);
+		left: 200px;
+	}
+
+	#content nav .nav-link {
+		display: none;
+	}
+    .content{
+       display: grid;
+       grid-template-areas: "form form"
+       "charts charts";
+       position: relative;
+       left:50px;
+   
+
+    }
+    .form{
+        grid-area: form;
+        width:400PX;
+        margin-left: 5px;
+    }
+    .charts{
+        grid-area: charts;
+        width:400px;
+        margin-left: 5px
+    }
+}
+
+
+
+
+
+
+
+
